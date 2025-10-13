@@ -10,7 +10,7 @@ class User{
 }
 class Admin extends User{
     constructor(username,email){
-        super(username,email)
+        super(username,email)//comment
     }
     
 }
