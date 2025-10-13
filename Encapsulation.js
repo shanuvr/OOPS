@@ -18,4 +18,4 @@ class BankAccount{
 }
 const newAcc = new BankAccount("shanu",1000)
 newAcc.deposit(2000)
-newAcc.check()
+newAcc.check()kjkj
