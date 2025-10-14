@@ -1,21 +1,25 @@
-class BankAccount{
-    #balance
-    constructor(owner,balance){
-        this.owner = owner;
-        this.#balance=balance
+class Account{
+    #followers = 0
+    constructor(username){
+        this.username = username
+      
     }
-
-    deposit(amount){
-        this.#balance+=amount
+    getFollowers(){
+        return this.#followers
     }
-    widraw(amount){
-        this.#balance-=amount
+    follow(){
+        return this.#followers+=1;
     }
-    check(){
-        console.log(`${this.#balance}`);
-        
+    unfollow(){
+        if(this.#followers>0){
+            return this.#followers-1
+        }
     }
 }
-const newAcc = new BankAccount("shanu",1000)
-newAcc.deposit(2000)
-newAcc.check()kk
+const person = new Account("username")
+person.follow()
+person.follow()
+person.follow()
+person.follow()
+person.#followers = 1000
+console.log(person.getFollowers());
