@@ -12,5 +12,5 @@ class User{
 
 
 }
-const shanu = new User("shanu","mypasss")
+const shanu = new User("shanu","mypassss")
 console.log(shanu.getName());
