@@ -5,6 +5,6 @@ function sum(arr:Array<number>):number{
    return sum3
 }
 
-let arr:number[] = [1,2,3,4,5,6,7,8] dsfdfdfdfd
+let arr:number[] = [1,2,3,4,5,6,7,8] 
 console.log(sum(arr));
 
