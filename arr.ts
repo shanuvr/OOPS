@@ -4,7 +4,7 @@ function sum(arr:Array<number>):number{
  let sum3:number = arr.reduce((acc:number,ele:number)=>{ return acc+ele},0)
    return sum3
 }
-sddfsdsdsd
+
 let arr:number[] = [1,2,3,4,5,6,7,8]d
 console.log(sum(arr));
 
