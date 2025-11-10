@@ -20,6 +20,6 @@ const person = new Account("username")
 person.follow()
 person.follow()
 person.follow()
-person.follow()
+person.follow()df
 // person.#followers = 10088sddfdfdfddf
 console.log(person.getFollowers());
