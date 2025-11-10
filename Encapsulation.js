@@ -21,5 +21,5 @@ person.follow()
 person.follow()
 person.follow()
 person.follow()
-// person.#followers = 10088sddf
+// person.#followers = 10088sddfdf
 console.log(person.getFollowers());
