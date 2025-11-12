@@ -21,5 +21,5 @@ person.follow()
 person.follow()
 person.follow()
 person.follow()
-// person.#followers = 1wereredeeere
+// person.#followers = 1
 console.log(person.getFollowers());
