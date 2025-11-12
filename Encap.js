@@ -13,3 +13,5 @@ var User3 = /** @class */ (function () {
 var shanu4 = new User3("shanu");
 shanu4.change("changed");
 console.log(shanu4.view());
+
+//we
