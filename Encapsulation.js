@@ -20,6 +20,6 @@ const person = new Account("username")
 person.follow()
 person.follow()
 person.follow()
-person.follow()e
-// person.#followers = 1wereredeer
+person.follow()
+// person.#followers = 1wereredeeer
 console.log(person.getFollowers());
