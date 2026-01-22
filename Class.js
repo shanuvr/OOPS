@@ -1,4 +1,4 @@
-class profile{
+ class profile{
     constructor(username,following,followers){
         this.username=username;
         this.following=following;
