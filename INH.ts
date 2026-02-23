@@ -5,7 +5,7 @@
         this.name = name;
         this.#age  = age;
  
-    }
+    } 
    
     changeAge(newAge:number){
         this.#age +=newAge
