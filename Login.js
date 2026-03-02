@@ -13,7 +13,7 @@ function User(name ,email){
  
 const shanu = new User("shanu","shanu@gamil.com")
 shanu.login()
-shanu.logout()
+shanu.logout() 
 const chandler = new User("chandler","chandler@gamil.com")
 chandler.login()
 chandler.logout() 
