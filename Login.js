@@ -10,7 +10,7 @@ function User(name ,email){
         
     } 
 }
-
+ 
 const shanu = new User("shanu","shanu@gamil.com")
 shanu.login()
 shanu.logout()
