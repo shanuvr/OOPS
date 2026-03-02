@@ -8,7 +8,7 @@ function User(name ,email){
     this.logout = ()=>{
         console.log(`${this.name} logged out`);
         
-    }
+    } 
 }
 
 const shanu = new User("shanu","shanu@gamil.com")
