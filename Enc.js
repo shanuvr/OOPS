@@ -5,7 +5,7 @@ var User = /** @class */ (function () {
     }
     User.prototype.getName = function () {
         return this.password;
-    };
+    }; 
     return User;
 }());
 var shanu = new User("shanu", "mypass");
