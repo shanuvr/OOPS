@@ -3,7 +3,7 @@ class Account {
     this.owner = owner;
     this.balance = balance;
   }
-
+ 
   deposit(amount) {
     this.balance += amount;
     console.log(`${this.owner} has deposited ${amount}. New balance is ${this.balance}`);
