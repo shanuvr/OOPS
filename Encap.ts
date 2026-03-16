@@ -8,7 +8,7 @@ private name:string
         this.name = name2
     }
     view(){
-        return this.name
+        return this.name 
     }
 }
      
