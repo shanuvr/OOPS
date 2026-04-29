@@ -3,7 +3,7 @@ var User3 = /** @class */ (function () {
         this.name = name;
     }
     User3.prototype.change = function (name2) {
-        this.name = name2; 
+        this.name = name2;  
     };
     User3.prototype.view = function () {
         return this.name;
